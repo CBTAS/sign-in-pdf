@@ -14,7 +14,7 @@ def _get_tmp_filename(suffix=".pdf"):
         return fh.name
 
 
-def sign_pdf(pdf, sign, args):
+def signinpdf(pdf, sign, args):
     print(args)
     page_num, x1, y1, width, height = [int(a) for a in args]
     page_num -= 1
@@ -61,9 +61,9 @@ def sign_pdf(pdf, sign, args):
 
 def main():
  #   
- #   sign_pdf('nomedoarquivo.pdf', 'img-assinatura.png', ["Numero de paginas= int", "Posicao X= int", "Posicao Y= int", "Altura da Imagem= int", "Largura da Imagem= list[]"])
+ #   signinpdf('nomedoarquivo.pdf', 'img-assinatura.png', ["Numero de paginas= int", "Posicao X= int", "Posicao Y= int", "Altura da Imagem= int", "Largura da Imagem= list[]"])
  #   Exemplo:
- #   sign_pdf(arquivo.pdf, img.png, [10, 300, 100, 150, 50])
+ #   signinpdf(arquivo.pdf, img.png, [10, 300, 100, 150, 50])
     
 
 
