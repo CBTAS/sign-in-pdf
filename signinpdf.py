@@ -60,11 +60,12 @@ def signinpdf(pdf, sign, args):
 
 
 def main():
- #   
+ #
  #   signinpdf('nomedoarquivo.pdf', 'img-assinatura.png', ["Numero de paginas= int", "Posicao X= int", "Posicao Y= int", "Altura da Imagem= int", "Largura da Imagem= list[]"])
  #   Exemplo:
  #   signinpdf(arquivo.pdf, img.png, [10, 300, 100, 150, 50])
-    
+ #
+    signinpdf('loremipsum.pdf', 'sign-teste.png', [1, 250, 50, 150, 75])
 
 
 if __name__ == "__main__":
