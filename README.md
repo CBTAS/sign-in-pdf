@@ -19,7 +19,7 @@ Inserir assinatura (imagem: png ou jpg) em PDF por meio do PYTHON.
 </ol>
 <p></p>
 
-<br>
+</br>
 <p>Exemplo:</p>
 <p></p>
 <b>signinpdf(arquivo.pdf, img.png, [10, 300, 100, 150, 50])</b>
